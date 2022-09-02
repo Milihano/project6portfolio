@@ -1,0 +1,61 @@
+#container {
+    margin: 0;
+    background-color: rgb(41, 36, 36,0.6);
+    color: white;
+}
+
+.logo {
+    font-size: 20px;
+    transition: transform .9s;
+    color: aliceblue;
+    background-color:black ;
+    padding: 0px 10px;
+}
+
+.logo:hover {
+    color:rgb(41, 36, 36,0.6); 
+    background-color:aliceblue ;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+#bar {
+    color: aliceblue;
+    position: fixed;
+    z-index: 3;
+}
+
+h1 {
+    padding-top: 60px;
+    font-size: 40px;
+}
+
+#front {
+    background-image: url(../images/computerpic.png);
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.front--text {
+    font-size: 60px;
+    position: absolute;
+    /* text-align: center; */
+    top: 250px;
+    left: 400px;
+    color: aliceblue;    
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 25px;
+    font-style:initial;
+}
+
+.second--h3 {
+    background-color: rgb(65, 61, 61);
+}
+
+.images2 {
+    border-radius: 50%;
+}
